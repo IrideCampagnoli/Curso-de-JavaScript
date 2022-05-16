@@ -1,0 +1,13 @@
+const nome = "rebeca"
+const concatenacao = "olá " +nome + '!'
+const template = `
+  Olá
+  ${nome}!`
+
+  console.log(concatenacao, template)
+
+  //expressao
+  console.log(`1 + 1 = ${1 +1}`)
+
+  const up = texto => texto.toUpperCase()
+  console.log(`Ei....${up('cuidado')}!`)
